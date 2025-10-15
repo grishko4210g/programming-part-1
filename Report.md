@@ -48,7 +48,7 @@ wsl --install
    ```sudo apt install build-essential gdb clang lldb make cmake -y
    ```
 
-   1. **Checked the installed**
+   4. **Checked the installed**
 
     ```bash
     gcc --version
@@ -70,3 +70,4 @@ wsl --install
 TBD
  
 ---
+
