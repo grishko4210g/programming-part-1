@@ -4,7 +4,7 @@
 **Course:** Programming, Part 1  
 **Institution:** NTU KhPI, Kharkiv, Ukraine  
 **Student:** Arina Hryshko  
-**Date:** Semtepber 19,2025  
+**Date:** Semtepber 20,2025  
  
 ---
  
