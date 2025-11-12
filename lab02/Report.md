@@ -1,4 +1,4 @@
-# Lab 02 — Markdown Report Template
+# Lab 02 — Markdown Report
  
 ---
 **Course:** Programming, Part 1  
