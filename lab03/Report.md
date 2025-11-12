@@ -3,19 +3,19 @@
 ---
 **Course:** Programming, Part 1  
 **Institution:** NTU KhPI, Kharkiv, Ukraine  
-**Student:** Arina Hryshko 
+**Student:** Arina Hryshko
 **Date:** October 22, 2025
- **Variant** 11(eleven)
+**Variant:** 11(eleven)
+
 ---
  
 ## Task Description
- 
  
 This lab focuses on implementing and testing an arithmetic expression, use arithmetic operations, use the correct operator precedence and parentheses to ensure accurate computation. Specify the domain of definition (DOD) of your expression. Evaluate the expression for a gaven x. Demonstrate the processing of invalid or uncertain input data.
  
 ## Structure
  
-```text
+```
 lab03/
 ├── Report.md # Laboratory report
 ├── task3_1.c # arithmetic operations
@@ -29,7 +29,6 @@ lab03/
 
 ## Task Description
  
-
 Write a program that computes an arithmetic expression, use arithmetic operations, use the correct operator precedence and parentheses to ensure accurate computation.
 
 ## Expression
