@@ -36,7 +36,7 @@ Write a program that computes an arithmetic expression, use arithmetic operation
 
 ```
 E(x) = x^3 - 1/x - 1 + (6 - x) * (x^2 - 2)/2 * x + 3
-
+```
  
 ### How to Build
  
