@@ -1,0 +1,16 @@
+// first example
+int main() {
+    return NULL;
+}
+
+// next example
+#include <stdio.h>
+
+int main() {
+    int *ptr = NULL;
+    printf("Hello, world!\n");
+    if (ptr == NULL) {
+        printf("Pointer is null\n");
+    }
+    return 0;
+}
