@@ -19,10 +19,11 @@ This lab focuses on implementing and calculating values for the corresponding op
  
 ```text
 lab04/
-├── task4_1.c         # Conditional Operators (if / else)
+├── task4_1.c       # Conditional Operators (if / else)
 ├── task4_2.c       # Selection Statements (switch / case)
-├── region_03.c           # Point in Region 
-├── Report.md         # Observations and conclusions.
+├── region_11.c     # Point in Region 
+└── Report.md       # Observations and conclusions.
+
 
 ```
  ## Lab 04_01 - Conditional Operators (if / else)
@@ -377,21 +378,22 @@ return 0;
 
  
 ```bash
-gcc -Wall -Wextra -O0 -g region_03.c -lm -o region_03
-grishko4210@DESKTOP-VOL6J04:~/programming-part-1/lab04$ ./region_03
+gcc -Wall -Wextra -O0 -g region_11.c -lm -o region_11
+grishko4210@DESKTOP-VOL6J04:~/programming-part-1/lab04$ ./region_11
 3 4
 NO
 grishko4210@DESKTOP-VOL6J04:~/programming-part-1/lab04$ 2 1
 2: command not found
-grishko4210@DESKTOP-VOL6J04:~/programming-part-1/lab04$ ./region_03
+grishko4210@DESKTOP-VOL6J04:~/programming-part-1/lab04$ ./region_11
 0.5 0.2
 YES
-grishko4210@DESKTOP-VOL6J04:~/programming-part-1/lab04$ ./region_03
+grishko4210@DESKTOP-VOL6J04:~/programming-part-1/lab04$ ./region_11
 4 5
 NO
-grishko4210@DESKTOP-VOL6J04:~/programming-part-1/lab04$ ./region_03
+grishko4210@DESKTOP-VOL6J04:~/programming-part-1/lab04$ ./region_11
 0.1 0.4
-YES                                                                                                   grishko4210@DESKTOP-VOL6J04:~/programming-part-1/lab04$ ./region_03
+YES
+grishko4210@DESKTOP-VOL6J04:~/programming-part-1/lab04$ ./region_11
 1.2 0
 NO
 ```
