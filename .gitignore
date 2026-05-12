@@ -21,6 +21,10 @@
 *.a
 *.la
 *.lo
+html/
+latex/
+dist/
+*.bin
 
 # Shared objects (inc. Windows DLLs)
 *.dll
