@@ -1,0 +1,38 @@
+
+--- All Lamps ---
+ №  | Name     | ON  | Burn  | Watt  | Color | Shape    | Socket  | Type     |                SMART
+-------------------------------------------------------------------------------------------------------------------
+ 0  | Philips  | OFF | 1     | 10    | 3000  | PEAR     | E27     | BASIC    | -                   
+ 1  | Osram    | OFF | 1     | 105   | 4000  | PEAR     | E40     | SMART    | WIFI: Yes; MCU: STM32F103; #562d48
+ 2  | Ikea     | OFF | 0     | 10    | 2700  | TUBULAR  | E14     | ETERNAL  | -                   
+ 3  | Xiaomi   | OFF | 0     | 30    | 2200  | GLOBE    | E27     | BASIC    | -                   
+ 4  | Xif      | OFF | 0     | 12    | 200   | GLOBE    | E27     | SMART    | WIFI: No; MCU: ESP8266; #FFAA00
+
+~=~=~=~| Turn on: |~=~=~=~
+
+--- All Lamps ---
+ №  | Name     | ON  | Burn  | Watt  | Color | Shape    | Socket  | Type     |                SMART
+-------------------------------------------------------------------------------------------------------------------
+ 0  | Philips  | OFF | 1     | 10    | 3000  | PEAR     | E27     | BASIC    | -                   
+ 1  | Osram    | OFF | 1     | 105   | 4000  | PEAR     | E40     | SMART    | WIFI: Yes; MCU: STM32F103; #562d48
+ 2  | Ikea     | ON  | 0     | 10    | 2700  | TUBULAR  | E14     | ETERNAL  | -                   
+ 3  | Xiaomi   | ON  | 0     | 30    | 2200  | GLOBE    | E27     | BASIC    | -                   
+ 4  | Xif      | ON  | 0     | 12    | 200   | GLOBE    | E27     | SMART    | WIFI: No; MCU: ESP8266; #FFAA00
+
+Burned:
+Philips
+Osram
+
+Total watte: 52
+Lamps в діапазоні [1000; 3500]3
+
+~=~=~=~| Sorted |~=~=~=~
+
+--- All Lamps ---
+ №  | Name     | ON  | Burn  | Watt  | Color | Shape    | Socket  | Type     |                SMART
+-------------------------------------------------------------------------------------------------------------------
+ 0  | Philips  | OFF | 1     | 10    | 3000  | PEAR     | E27     | BASIC    | -                   
+ 1  | Ikea     | ON  | 0     | 10    | 2700  | TUBULAR  | E14     | ETERNAL  | -                   
+ 2  | Xif      | ON  | 0     | 12    | 200   | GLOBE    | E27     | SMART    | WIFI: No; MCU: ESP8266; #FFAA00
+ 3  | Xiaomi   | ON  | 0     | 30    | 2200  | GLOBE    | E27     | BASIC    | -                   
+ 4  | Osram    | OFF | 1     | 105   | 4000  | PEAR     | E40     | SMART    | WIFI: Yes; MCU: STM32F103; #562d48
