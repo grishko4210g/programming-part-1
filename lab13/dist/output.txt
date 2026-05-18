@@ -1,0 +1,16 @@
+--- TASK 1: TRIANGLE ---
+         *
+        ***
+       *****
+      *******
+     *********
+    ***********
+   *************
+  ***************
+ *****************
+*******************
+--- TASK 2: MATRIX ---
+Max number: 102
+Sum above main diagonal: 333
+Sum below secondary diagonal: 129
+Primes on diagonal: 5 2 
