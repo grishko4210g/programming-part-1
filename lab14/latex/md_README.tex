@@ -1,0 +1,89 @@
+\chapter{README}
+\hypertarget{md_README}{}\label{md_README}\index{README@{README}}
+Lab 14 -\/ Structured Data Types
+
+{\bfseries{Course\+:}} Programming, Part 2 ~\newline
+ {\bfseries{Institution\+:}} NTU Kh\+PI, Kharkiv, Ukraine ~\newline
+ {\bfseries{Student\+:}} Arina Hryshko ~\newline
+ {\bfseries{Date\+:}} 02 May, 2026\hypertarget{md_README_autotoc_md0}{}\doxysubsection{\texorpdfstring{Description\+:}{Description:}}\label{md_README_autotoc_md0}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{This\ project\ is\ a\ laboratory\ work\ focused\ on\ working\ with\ structured\ data\ types\ in\ C.\ The\ main\ goal\ is\ to\ simulate\ an\ application\ domain(Lamps)\ using\ structures,\ implement\ file\ processing,\ sorting,\ filtering\ and\ modular\ program\ design.}
+\DoxyCodeLine{}
+\DoxyCodeLine{The\ program\ models\ different\ types\ of\ lamp,\ inclusing:}
+\DoxyCodeLine{1.\ Base\ Lamp;}
+\DoxyCodeLine{2.\ Smart\ Lamp;}
+\DoxyCodeLine{3.\ Enternal\ Lamp}
+\DoxyCodeLine{}
+\DoxyCodeLine{and\ provides\ operations\ on\ collections\ of\ these\ objects.}
+
+\end{DoxyCode}
+\hypertarget{md_README_autotoc_md1}{}\doxysubsection{\texorpdfstring{Input Data}{Input Data}}\label{md_README_autotoc_md1}
+The input file (assets/input.\+txt) must contain\+: height, width and symbol. For Example\+: {\itshape 1} 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{0\ BASIC\ 1\ Philips\ 5\ 10\ 3000\ 3\ 1}
+
+\end{DoxyCode}
+ {\itshape 2} 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1\ SMART\ 0\ Osram\ 3\ 105\ 4000\ 2\ 2\ 1\ STM32F103\ \#562d48}
+
+\end{DoxyCode}
+ {\itshape 3} 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{2\ ETERNAL\ 1\ Ikea\ 0\ 10\ 2700\ 1\ 0\ }
+
+\end{DoxyCode}
+ \DoxyHorRuler{0}
+ \hypertarget{md_README_autotoc_md3}{}\doxysubsection{\texorpdfstring{Structure}{Structure}}\label{md_README_autotoc_md3}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{lab14/}
+\DoxyCodeLine{├──Doxyfile/}
+\DoxyCodeLine{├──\ Makefile/}
+\DoxyCodeLine{├──\ README.md}
+\DoxyCodeLine{├──\ assets/}
+\DoxyCodeLine{|\ \ \ \ \ \ └──\ input.txt}
+\DoxyCodeLine{├──\ doc/}
+\DoxyCodeLine{|\ \ \ \ \ \ └──\ lab14.md}
+\DoxyCodeLine{├──\ test/}
+\DoxyCodeLine{|\ \ \ \ \ \ └──\ test.c}
+\DoxyCodeLine{├──\ src/}
+\DoxyCodeLine{|\ \ \ \ \ └──\ lib.c}
+\DoxyCodeLine{|\ \ \ \ \ └──\ lib.h}
+\DoxyCodeLine{|\ \ \ \ \ └──\ main.c}
+
+\end{DoxyCode}
+\hypertarget{md_README_autotoc_md4}{}\doxysubsection{\texorpdfstring{How to Run}{How to Run}}\label{md_README_autotoc_md4}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{make\ test}
+\DoxyCodeLine{./dist/main.bin\ "{}./assets/input.txt"{}\ "{}./dist/output.txt"{}}
+\DoxyCodeLine{make\ clean}
+
+\end{DoxyCode}
+\hypertarget{md_README_autotoc_md5}{}\doxysubsection{\texorpdfstring{How to Test}{How to Test}}\label{md_README_autotoc_md5}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{make\ test}
+
+\end{DoxyCode}
+\hypertarget{md_README_autotoc_md6}{}\doxysubsection{\texorpdfstring{Features\+:}{Features:}}\label{md_README_autotoc_md6}
+The program implements\+:
+\begin{DoxyItemize}
+\item Reading an array of structures from a file.
+\item Writing an array of structures to a file.
+\item Displauing structures on screen.
+\item Finding burnt-\/out lamps.
+\item Calculating total watts consumption(excluding burn-\/out lamps).
+\item Selecting smart lamps.
+\item Sorting lamps by speified field.
+\item Simulated lamp behavior (turn on/burnout logic).
+\item Suppport for "{}\+Smart"{} and "{}\+Enternal"{} lamp types
+\end{DoxyItemize}\hypertarget{md_README_autotoc_md7}{}\doxysubsection{\texorpdfstring{Notes}{Notes}}\label{md_README_autotoc_md7}
+
+\begin{DoxyItemize}
+\item All data is passed using pointers as required by the lab task.
+\item The program doesn\textquotesingle{}t require interactive user input.
+\item Input data is read from "{}assets/input.\+txt"{} 
+\end{DoxyItemize}
